@@ -41,16 +41,6 @@ app.get('/', (req, res) => {
     console.log(result);
   })
   .catch(error =>{
-    console.log(error);
+  console.log(error);
   });
 });
-//exemplo gomide
-// function executeDivisionPromise() {
-//   divisionPromise(12, 0)
-//     .then(result => {
-//       console.log(result);
-//     })
-//     .catch(errorMessage => {
-//       console.log('Falha na divisão ' + errorMessage);
-//     });
-// }
